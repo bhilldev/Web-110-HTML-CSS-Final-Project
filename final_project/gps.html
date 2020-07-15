@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="icon" href="favicon.ico" type="image/x-icon">
+		<link rel="stylesheet" href="navigation.css">
+		<title>Web Technologies in Aviation</title>
+	</head>
+	<body>
+		<div id="wrapper">
+			<div class="compass">
+			</div>
+			<header>
+				<h1>Web Technologies in Aviation</h1>
+			</header>
+			<nav>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="vfr.html">VFR/IFR</a></li>
+					<li><a href="vor.html">Radio</a></li>					
+					<li><a href="gps.html">GPS</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</nav><!--End of Nav-->
+			<main>
+				<h2>GPS</h2>
+				<p>GPS is the most current form of insturment navigation. This form of navigation is found on newer general aviation and commercial aircraft equipped with insturment navigation capabilities. It uses the nearest GPS satellites overhead to track position.</p>
+				<h4>Examples:</h4>
+				<ul>
+					<li>Garmin G430, G530, GTN 750, G1000, G3000 (G1000 with touchscreen)</li>
+					<li>Rockwell Collins (used on Boing 737)</li>
+				</ul>
+				<h4>How to use: </h4>
+				<ul>
+					<li>Go tp SkyVector, In this case, we're using the GPS, which means that we're IFR, so we need to use "World Lo" instead of "World VFR" selected in the top right.</li>
+					<li>Enter Departure (Airport ICAO), Enter Destination (Airport ICAO), Find GPS points between departure and destination, or enter no points to fly direct-to</li>
+					<li>Pilot programs GPS points from flight plan.</li>
+					<LI>Names of GPS points can be:</LI>
+					<li>
+						<ul>
+							<li>Standalone GPS points that have 5 character all caps names.(Example: JHAWK, a waypoint near Lawrence, KS)</li>
+							<li>Names of VOR's or NDB's. VOR's 3 character all caps. NDB's 2 character all caps.(Example VOR: MCI, Kansas City VORTAC)</li>
+							<li>Latitude and longitude coordinates. Different GPS systems have their own particular syntax about how they should be entered.</li>
+							<li>Airports using 4 character all caps ICAO codes. (Example: KMCI)</li>
+						</ul>
+					</li>
+					</ul>
+					<div id="gns430">
+					</div>
+					<h4>GPS systems provide much more information about the current flight including:</h4>
+						<ul>
+							<li>Distance between waypoints.</li>
+							<li>Ground speed. (Calculated internally using <strong>true speed</strong> plus/minus headwind or tailwind.)</li>
+							<li>A map that shows GPS points connecting the two airports.</li>
+							<li>Go-around and holding patterns displayed visually on the map</li>
+							<li>Nearby airports. (Their ICAO 4 character name, course, and distance from current position)</li> 
+						</ul>	
+					
+				
+				<footer>Copyright &copy; 2020 Brandon Hill, Inc<br>
+						<a href="mailto:brandon@hill.com">brandon@hill.com</a>
+				</footer>
+			</main>
+		</div>
+	</body>
+</html>
